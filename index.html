@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/7741ac78ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="back.jpeg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>My Name is</p>
+                <h1>Shivesh kumar ,</h1><br>
+                <h3>I'm a <span style="color:red">Web</span> Developer</h3>
+            </div>
+        </div>
+    </div>
+    <!------------------------ about ----------------------->
+    <div id="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="shivesh profile photo.jpg" height="500px" width="300px" alt="profileimage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="mob"><em>"Hello there! I'm <span style="color: red;">Shivesh
+                                Kumar</span>, a dedicated Frontend Developer who crafts digital experiences that blend
+                            innovation, aesthetics, and functionality.<br><br>
+                            With a passion for turning ideas into pixel-perfect realities, I
+                            specialize in creating immersive user interfaces that leave a lasting impression. My journey
+                            in the world of Frontend Development has been a thrilling ride of continuous learning and
+                            growth.<br><br>
+                            From transforming intricate designs into responsive websites using
+                            <span style="color: red;">HTML, CSS, and JavaScript</span>, to optimizing user experiences
+                            through performance-focused techniques, I've honed my skills through hands-on projects like
+                            <strong>[Blogging Website,RealEstate Website]</strong>. This project allowed me to learn
+                            various technologies like React,NextJs etc .
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tablinks"onclick="opentab('experiance')">Experiance</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>
+                                <img src="c_program.png" height="175px" width="150px" alt="claguage logo">
+                                <img src="c++_laguage.png" height="175px" width="150px" alt="">
+                                <img src="java_language.png" height="175px" width="150px" alt="">/</li>
+                            <li>
+                                <span>Web technologies</span><br>
+                                <img src="html.png" height="175px" width="150px" alt="html logo">
+                                <img src="css.png" height="175px" width="150px" alt="css logo">
+                                <img src="bootstrap.jpeg" height="175px" width="150px" alt="bootstrap logo">
+                            </li>
+                            <li><span>Frontend frameworks</span><br>React,NextJs,Vue.js</li>
+                            <li><span>Backend</span><br>Nodejs,MongoDB,Express,MySql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+<ul>
+<p>Even though I'm at the beginning of my journey as a web 
+developer, my enthusiasm, dedication, and hands-on projects have allowed me to build a solid 
+foundation in this dynamic field. Here's a glimpse into my early experiences that have 
+shaped my path as a budding web developer:<br><br>
+🌐 Personal Website Project: I embarked on creating my own 
+personal website from scratch, leveraging HTML, CSS, and a touch of JavaScript to showcase 
+my skills, projects, and passion for web development. This project helped me grasp the 
+fundamentals of front-end development and provided insights into creating user-friendly 
+interfaces.
+📚 Self-Directed Learning: My appetite for knowledge has led 
+me to dive into various online resources, tutorials, and courses, covering topics like 
+responsive design, web accessibility, and introductory programming languages. This selfdirected learning has broadened my understanding of best practices and emerging trends in 
+web development.
+💡 Code Challenges: I actively engage in coding challenges 
+on platforms like [mention coding challenge platforms], where I tackle problems related to 
+algorithms, data structures, and web development. These challenges have sharpened my 
+problem-solving skills and coding proficiency.
+🚀 Collaborative Projects: While studying, I collaborated 
+with peers on projects such as [describe a collaborative project], where I contributed to 
+the development of a [briefly describe the project's nature]. This experience introduced me 
+to version control, project management, and the collaborative nature of coding.
+As I embrace my journey as a fresher web developer, I'm 
+excited about the potential to contribute my skills and fresh perspectives to a team 
+passionate about creating impactful web experiences. My commitment to learning and 
+adaptability equips me to take on new challenges and continually evolve in this everevolving field.
+Thank you for exploring my early experiences. If you're 
+interested in connecting, discussing projects, or exploring potential collaborations, please 
+feel free to reach out to me at [your email address]. Here's to the thrilling adventure of 
+crafting the web of tomorrow!</p>
+</ul>
+</div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MASTERS OF COMPUTER APPLICATION(MCA)</span><br>Lovely
+                                Professional University</li>
+                                <img src="lpulogo.png" alt="">
+                            <li><span>BACHELOR</span><br>KISAN COLLEGE, PATLIPUTRA
+                                UNIVERSITY</li>
+                                <img src="Kisan College.jpg" height="150px" width="375px" alt="">
+                            <li> 
+                                <span>Intermediate(XII)</span><br> K.S.T. College Salempur, Bihar Sharif(BSEB)
+                            </li>
+                            <img src="kst_college.jpg" height="150px" width="375px" alt="kstcollegeimage">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------- Services ------------------------------>
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">My Services</div>
+        </div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>Web development is the building and maintenance of websites;
+                     it’s the work that happens behind the scenes to make a website look great, 
+                     work fast and perform well with a seamless user experience.</p>
+                <a href="https://brainstation.io/career-guides/what-is-web-development">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Software Developer</h2>
+                <p>Software developers design, program, build, deploy and maintain software using many different skills and tools.
+                     They also help build software systems that power networks and devices and ensure that those systems remain functional</p>
+                <a href="https://www.devry.edu/online-programs/area-of-study/technology/what-does-a-software-developer-do.html#:~:text=Software%20developers%20design%2C%20program%2C%20build,that%20those%20systems%20remain%20functional.">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam iure
+                    iusto ea dolore quo placeat alias molestiae sapiente, quod ipsam!</p>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------- contact ---------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>
+                        Contact@shiveshkr7547@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6299887330</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shivesh.kumar.33483?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/shivesh6299"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/shivesh_kushwaha?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1AX83DXyqXUhoVGaRJV2GulNyXUAJgH94/view?usp=drive_link" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2 Std">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright@ Shivesh.Hope You Lke It<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+</body>
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</html>
